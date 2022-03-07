@@ -1,0 +1,37 @@
+<!DOCTYPE html><html lang="en"><head>
+  <script src="libraries/p5.js"></script>
+  <script src="libraries/p5.dom.min.js"></script>
+  <script src="libraries/p5.play.js"></script>
+
+
+<!--Link game.js and player.js-->
+<script src="https://www.gstatic.com/firebasejs/8.9.1/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.9.1/firebase-database.js"></script>
+<script>
+
+const firebaseConfig = {
+  apiKey: "AIzaSyDtr_y9uoFeg11xYHbnA9jwzKovfQo3ows",
+  authDomain: "fruitthing-238dd.firebaseapp.com",
+  databaseURL: "https://fruitthing-238dd-default-rtdb.firebaseio.com",
+  projectId: "fruitthing-238dd",
+  storageBucket: "fruitthing-238dd.appspot.com",
+  messagingSenderId: "140588778104",
+  appId: "1:140588778104:web:20ab5ddddf03769677638d"
+};
+
+
+  firebase.initializeApp(firebaseConfig);
+</script>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <meta charset="utf-8">
+
+</head>
+<body>
+  <script src="sketch.js"></script>
+  <script src="js/player.js"></script>
+  <script src="js/game.js"></script>
+  <script src="js/form.js"></script>
+
+
+
+</body></html>
